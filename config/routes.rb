@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'bye/close'
 
+  get 'greetings/new'
+
   root 'greetings#hello'
 
   # The priority is based upon order of creation: first created -> highest priority.
